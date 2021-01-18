@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightred;
+    background-color: rgb(285, 259, 49);
+}
+
+h1 {
+  color: rgb(4351,343,565);
+}
+
+/* unvisited link */
+a:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(4,4,123)
+}
+
+/* visited link */
+a:visited {
+
+}
+
+/* mouse over link */
+a:hover {
+ color: black;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+/* nieodwiedzone linki*/
+a:link {
+  color: red;
+  font-weight: bold; /* pogrubienie */
+}
+
+/* odwiedzony link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
